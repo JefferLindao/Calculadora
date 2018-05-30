@@ -1,0 +1,75 @@
+@import url("fuentes.css");
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #646868;
+}
+.table{
+  padding: 100px;
+}
+table{
+  display: block;
+  background: #1BE359FF;
+  border-radius: 3px;
+  margin: 0px auto;
+  width:250px;
+  height: auto;
+  padding: 15px;
+}
+table tr td > button{
+  display: block;
+  font-family: rochester;
+  font-size: 20px;
+  color: #123030;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1.5px solid #999;
+  border-right: 1.5px solid #999;
+}
+#resultado{
+  display: block;
+  background: #fff;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  text-align: right;
+  font-size: 30px;
+  font-family: rochester;
+}
+/* FIXME: averiguar como desaparecer el borde
+azul cuando hago click */
+
+table tr td .color{
+  background:#cdd6b0;
+}
+table tr td .rojo{
+  background:#c71414;
+}
+table tr td .color:hover,
+table tr td .color:focus{
+  background:#ecfdbc;
+}
+table tr td .rojo:hover,
+table tr td .rojo:focus{
+  background:#e70b0b;
+}
+table tr td .rojo:focus{
+  border-bottom: 0.5px solid #999;
+  border-right: 0.5px solid #999;
+}
+table tr td .color:focus{
+  border-bottom: 0.5px solid #999;
+  border-right: 0.5px solid #999;
+}
+table thead tr td{
+  color: silver;
+  text-align: center;
+  padding-bottom: 10px;
+}
